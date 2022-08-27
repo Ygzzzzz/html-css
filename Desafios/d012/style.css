@@ -11,6 +11,7 @@
     --fonte3: 'Sriracha', cursive;
 
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -64,21 +65,36 @@ section.normal {
     color: black;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
+
 section.imagem {
     background-color: rgb(53, 52, 52);
     color: white;
-   position: relative;
-   background-repeat: no-repeat;
-   background-position: right center;
-   background-size: cover;
-   background-attachment: fixed;
-   
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.534);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#img1 {
+    background-image: url(imagens/background001.jpg);
+    
+}
+
+#img2 {
+    background-image: url(imagens/background002.jpg);
+    
 }
 
 section.imagem > p {
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.26);
+    text-shadow: 2px 2px 0px black;
 }
 
 
