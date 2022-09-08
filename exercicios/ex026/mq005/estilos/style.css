@@ -19,8 +19,23 @@ header > h1 {
     padding: 10px;
 }
 
-menu {
+#icon {
+    background-color: rgb(87, 87, 87);
+    width: 100vw;
     display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#icon:hover {
+    background-color: white;
+    color:black
+}
+
+menu {
+    display: none;
 }
 
 menu > ul {
